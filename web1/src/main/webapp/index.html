@@ -1,10 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+ 
+<!-- Head Section Content -->
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+ 
+    <!-- Page title -->
+    <title>Basic form design using HTML</title>
 </head>
-<body>
-hello im manju
+ 
+<!-- Body Section Content -->
+<body style="background-image:url('Right Side Waterfall Poster-9.jpg');">
+<!-- Used to display heading content -->
+    <h1>Welcome to My Webpage</h1>
+ 
+    <!-- Used to display paragrapg content -->
+    <p> computer science (CS)and engineering</p>
+
+<font color=blue>
+
+ 
+    <!-- Heading Content -->
+    <h1>Reva University</h1>
+    
+    <font color=red>
+    
+ 
+    <h3>Application form</h3></font>
+ 
+    <!-- Creating a from -->
+    <form action="#">
+        <fieldset>
+            <legend>Personal Details</legend>
+ 
+            <!-- Label and input field -->
+            <p>
+                <label>First name : <input name="firstName" /></label>
+            </p>
+ 
+            <p>
+                <label>Last name : <input name="lastName" /></label>
+            </p>
+ 
+            <!-- Label and radio button field -->
+            <p>
+                Gender :
+                <label><input type="radio" name="gender"
+                    value="male" /> Male</label>
+ 
+                <label><input type="radio" name="gender"
+                    value="female" /> Female</label>
+               
+                <label><input type="radio" name="gender"
+                    value="female" /> Other</label>
+            </p>
+ 
+            <p>
+                <label>Email : <input type="email"
+                    name="email" /></label>
+            </p>
+ 
+            <p>
+                <label>Date of Birth : <input type="date"
+                    name="birthDate"></label>
+            </p>
+ 
+            <!-- Label and textarea field -->
+            <p>
+                <label>Address :
+                    <br />
+                    <textarea name="address" cols="30"
+                        rows="3"></textarea>
+                </label>
+            </p>
+ 
+            <!-- Creating a button -->
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
+    </font>
 </body>
+ 
 </html>
